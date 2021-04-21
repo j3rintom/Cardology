@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:fantasy;
+}
+
+.main{
+    width: 75%;
+    margin:0 auto;
+    text-align: center;
+    height: 100%;
+}
+.main h2{
+    padding-bottom:15 px;
+    font-size: 75px;
+    font-weight: 300;
+    border-bottom: 3px solid black;
+    margin-bottom: 10px;
+}
+#result{
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+#gametype{
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: brown;
+    margin: 10px;
+}
+.row-1{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.row-1{
+    background-image: url("https://media.istockphoto.com/photos/green-poker-background-picture-id453187915?k=6&m=453187915&s=612x612&w=0&h=kB43IY-gj4jbxw-_gxsXK11ar2kR8JJjxLX-aXTvjdQ=");
+    height: 440px;
+}
+.row-1 p{
+    position: absolute;
+    padding-top: 100px;
+    width:70%;
+    font-size: 18px;
+}
+.row-1 div{
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    height: 350px;
+}
+.row-1 h3{
+    opacity: 0;
+}
+.row-1 img{
+    width: 25%;
+    padding: 10px;
+}
+.row-2{
+    padding-top: 5px;
+    background-image: url("https://media.istockphoto.com/photos/green-poker-background-picture-id453187915?k=6&m=453187915&s=612x612&w=0&h=kB43IY-gj4jbxw-_gxsXK11ar2kR8JJjxLX-aXTvjdQ=");
+}
+.row-0{
+    display: flex;
+    justify-content:space-between;
+}
+.row-2 button{
+    border: 2px solid black;
+    margin-right: 5px;
+    margin-bottom:5px;
+}
+table,th,td{
+    padding: 5px;
+    border: 2px solid black;
+}
